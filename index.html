@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio — Yusuf Simsek</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio van Yusuf Simsek — software developer. Projecten, skills en contact.">
+  <meta name="referrer" content="no-referrer">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; script-src 'self'; base-uri 'self'; form-action 'self' mailto:; object-src 'none'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+
+  <meta name="theme-color" content="#0c0a08">
+
+  <meta property="og:title" content="Yusuf Simsek — Portfolio">
+  <meta property="og:description" content="Software developer portfolio: projecten, skills en contact.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_NL">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Hoofdnavigatie">
+      <a class="logo" href="#home">YS</a>
+
+      <button class="menu-btn" type="button" aria-label="Menu openen" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#about"        data-i18n="nav.about">Over mij</a></li>
+        <li><a href="#projects"     data-i18n="nav.projects">Projecten</a></li>
+        <li><a href="#skills"       data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#testimonials" data-i18n="nav.testimonials">Reviews</a></li>
+        <li><a href="#contact"      data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <!-- lang-switch: geen semantische betekenis → <section> met label is correct -->
+      <section class="lang-switch" aria-label="Taalkeuze">
+        <button id="lang-en" type="button" data-lang="en">EN</button>
+        <button id="lang-nl" type="button" data-lang="nl" aria-current="page">NL</button>
+      </section>
+    </nav>
+    </header>
+
+    <!-- hero is de introductiesectie van de pagina -->
+    <section id="home" class="hero">
+      <section class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Welkom</p>
+        <h1 data-i18n="hero.title">Ik ben Yusuf Simsek</h1>
+        <p class="subtitle" data-i18n="hero.subtitle">Software Developer</p>
+        <button class="primary-btn" type="button" data-scroll-target="#projects" data-i18n="hero.cta">
+          Bekijk mijn projecten
+        </button>
+      </section>
+
+      <figure class="hero-profile">
+        <img src="Yusuf.jpeg" alt="Portret van Yusuf Simsek" width="300" height="400">
+      </figure>
+    </section>
+  
+
+  <main>
+
+    <!-- About -->
+    <section id="about" class="about layout-section">
+      <header class="section-header">
+        <h2 data-i18n="about.title">Over mij</h2>
+      </header>
+      <article class="about-content">
+        <section class="about-text">
+          <p data-i18n="about.body">
+           Ik ben Yusuf Simsek, een 17-jarige student aan het Techniek College op de Jan Ligthartstraat, waar ik de opleiding Software Developer volg. Binnen de IT-wereld ligt mijn interesse vooral bij backend development, waar ik mij richt op het bouwen van logische, efficiënte en betrouwbare systemen. Ik ben leergierig, gemotiveerd en werk continu aan het verbeteren van mijn technische vaardigheden. Mijn doel is om mij verder te ontwikkelen tot een professionele developer en bij te dragen aan sterke en goed functionerende digitale oplossingen.
+          </p>
+        </section>
+      </article>
+    </section>
+
+    <!-- Projects -->
+   <section id="projects" class="projects layout-section">
+  <header class="section-header">
+    <h2 data-i18n="projects.title">Mijn projecten</h2>
+  </header>
+
+  <section class="projects-grid" aria-label="Project overview">
+
+    <article class="project-card">
+      <h3>Novatrust Crypto Bank</h3>
+      <p data-i18n="project.novatrust">Mijn eerste schoolproject...</p>
+      <button class="secondary-btn" type="button" data-i18n="project.view">Bekijk project</button>
+    </article>
+
+    <article class="project-card">
+      <h3>L'Essence D'or</h3>
+      <p data-i18n="project.lessence">Een parfumwebsite...</p>
+      <button class="secondary-btn" type="button" data-i18n="project.view">Bekijk project</button>
+    </article>
+
+    <article class="project-card">
+      <h3>TechFix Solutions</h3>
+      <p data-i18n="project.techfix">Een refurbished/elektronica e-commerce website...</p>
+      <button class="secondary-btn" type="button" data-i18n="project.view">Bekijk project</button>
+    </article>
+
+  </section>
+</section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills layout-section">
+      <header class="section-header">
+        <h2 data-i18n="skills.title">Technische Skills</h2>
+      </header>
+
+      <section class="skills-grid" aria-label="Skillsoverzicht">
+
+        <article class="skill">
+          <header>
+            <h3>HTML</h3>
+            <p class="percentage">90%</p>
+          </header>
+          <meter class="skill-bar skill-html" min="0" max="100" value="90" aria-label="HTML 90%"></meter>
+        </article>
+          
+      <article class="skill">
+          <header>
+            <h3>CSS</h3>
+            <p class="percentage">90%</p>
+          </header>
+          <meter class="skill-bar skill-css" min="0" max="100" value="90" aria-label="CSS 90%"></meter>
+        </article>
+        <article class="skill">
+
+          <header>
+            <h3>JavaScript</h3>
+            <p class="percentage">80%</p>
+          </header>
+          <meter class="skill-bar skill-js" min="0" max="100" value="80" aria-label="JavaScript 80%"></meter>
+        </article>
+
+       <article class="skill">
+          <header>
+            <h3>PHP</h3>
+            <p class="percentage">80%</p>
+          </header>
+          <meter class="skill-bar skill-php" min="0" max="100" value="80" aria-label="PHP 80%"></meter>
+        </article>
+
+         <article class="skill">
+          <header>
+            <h3>SQL</h3>
+            <p class="percentage">85%</p>
+          </header>
+          <meter class="skill-bar skill-sql" min="0" max="100" value="85" aria-label="SQL 85%"></meter>
+        </article>
+
+      </section>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials layout-section">
+      <header class="section-header">
+        <h2 data-i18n="testimonials.title">Testimonials</h2>
+      </header>
+
+      <section class="testimonial-grid" aria-label="Klantervaringen">
+
+        <article class="testimonial">
+          <blockquote>"Yusuf heeft een uitstekend werk geleverd, sterk aanbevolen!"</blockquote>
+          <p class="client">Client A</p>
+        </article>
+
+        <article class="testimonial">
+          <blockquote>"Professioneel, betrouwbaar en creatief in oplossingen."</blockquote>
+          <p class="client">Client B</p>
+        </article>
+
+      </section>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact layout-section">
+      <header class="section-header">
+        <h2 data-i18n="contact.title">Contact</h2>
+      </header>
+
+      <article class="contact-layout">
+
+        <address class="contact-info">
+          <p>
+            <span data-i18n="contact.emailLabel">E‑mail</span>:<br>
+            <a href="mailto:Yusuf.simsek9080@gmail.com">Yusuf.simsek9080@gmail.com</a>
+          </p>
+          <p>
+            <span data-i18n="contact.locationLabel">Locatie</span>:<br>
+            <span data-i18n="contact.locationValue">Rotterdam, Nederland</span>
+          </p>
+        </address>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <section class="form-row">
+            <label for="name" data-i18n="form.name">Naam</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </section>
+
+          <section class="form-row">
+            <label for="email" data-i18n="form.email">E‑mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </section>
+
+          <section class="form-row">
+            <label for="message" data-i18n="form.message">Bericht</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </section>
+
+          <button class="primary-btn" type="submit" data-i18n="form.send">Versturen</button>
+        </form>
+
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <section class="footer-inner">
+      <p data-i18n="footer.copy">&copy; 2026 Yusuf Simsek. Alle rechten voorbehouden.</p>
+
+      <nav class="footer-links" aria-label="Sociale links">
+        <a href="#linkedin">LinkedIn</a>
+        <a href="https://github.com/So1yz" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/so8yz/" target="_blank">Instagram</a>
+      </nav>
+    </section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
