@@ -75,7 +75,7 @@ const translations = {
   },
 };
 
-// ── Helpers ──────────────────────────────────────────────
+// Helpers 
 
 function getHeaderHeight() {
   const header = document.querySelector(".site-header");
@@ -90,7 +90,6 @@ function scrollToTarget(target) {
   setTimeout(() => target.classList.add("section-flash"), 10);
 }
 
-// ── Anchor click handler ──────────────────────────────────
 
 function handleAnchorClick(e) {
   const link = e.target.closest("a[href^='#']");
@@ -106,7 +105,7 @@ function handleAnchorClick(e) {
 
 document.addEventListener("click", handleAnchorClick);
 
-// ── Scroll buttons ────────────────────────────────────────
+// Scroll buttons 
 
 function initScrollButtons() {
   document.querySelectorAll("[data-scroll-target]").forEach((btn) => {
@@ -117,7 +116,7 @@ function initScrollButtons() {
   });
 }
 
-// ── Language switcher ─────────────────────────────────────
+// taal switcher
 
 function setLanguage(lang) {
   const safe = lang === "en" ? "en" : "nl";
@@ -143,7 +142,7 @@ function initLanguageSwitcher() {
   });
 }
 
-// ── Active nav ────────────────────────────────────────────
+// Nav
 
 function initActiveNav() {
   const sections = Array.from(document.querySelectorAll("main > section[id]"));
@@ -169,7 +168,7 @@ function initActiveNav() {
   sections.forEach((s) => observer.observe(s));
 }
 
-// ── Contact form ──────────────────────────────────────────
+// Contact
 
 function initContactForm() {
   const form = document.getElementById("contact-form");
@@ -197,7 +196,7 @@ function initContactForm() {
   });
 }
 
-// ── Mobile menu ───────────────────────────────────────────
+// responsive mobile
 
 function initMobileMenu() {
   const btn = document.querySelector(".menu-btn");
@@ -225,9 +224,6 @@ function initMobileMenu() {
     a.addEventListener("click", () => setOpen(false))
   );
 }
-
-
-// ── Init ──────────────────────────────────────────────────
 
 initScrollButtons();
 initLanguageSwitcher();
