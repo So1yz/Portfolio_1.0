@@ -12,7 +12,7 @@ const translations = {
     "hero.cta":      "Bekijk mijn projecten",
 
     "about.title": "Over mij",
-    "about.body":  "Ik ben Yusuf Simsek, een 17-jarige student aan het Techniek College op de Jan Ligthartstraat, waar ik de opleiding Software Developer volg. Binnen de IT-wereld ligt mijn interesse vooral bij backend development, waar ik mij richt op het bouwen van logische, efficiënte en betrouwbare systemen. Ik ben leergierig, gemotiveerd en werk continu aan het verbeteren van mijn technische vaardigheden. Mijn doel is om mij verder te ontwikkelen tot een professionele developer en bij te dragen aan sterke en goed functionerende digitale oplossingen.",
+    "about.body":  "Ik ben Yusuf Simsek, een 17-jarige student aan het Techniek College op de Jan Ligthartstraat, waar ik de opleiding Software Developer volg. Binnen de IT-wereld ligt mijn interesse vooral bij backend development, waar ik mij richt op het bouwen van logische, efficiënte en betrouwbare systemen. Ik hou ervan om dingen uit te zoeken en beter te worden in backend. Vooral databases en logica trekken me. Ik ben gemotiveerd en werk continu aan het verbeteren van mijn technische vaardigheden. Mijn doel is om mij verder te ontwikkelen tot een professionele developer en bij te dragen aan sterke en goed functionerende digitale oplossingen.",
 
     "projects.title": "Mijn projecten",
     "project.view":   "Bekijk project",
@@ -49,7 +49,7 @@ const translations = {
     "hero.cta":      "View My Projects",
 
     "about.title": "About Me",
-    "about.body":  "I am Yusuf Simsek, a 17-year-old student at the Techniek College on Jan Ligthartstraat, where I am studying Software Development. Within the IT world, my main interest lies in backend development, where I focus on building logical, efficient, and reliable systems. I am eager to learn, motivated, and continuously work on improving my technical skills. My goal is to further develop into a professional developer and contribute to strong and well-functioning digital solutions.",
+    "about.body":  "I am Yusuf Simsek, a 17-year-old student at the Technical College on Jan Ligthartstraat, where I am studying Software Development. Within the IT world, my interest lies primarily in backend development, where I focus on building logical, efficient, and reliable systems. I enjoy figuring things out and improving my backend skills. Databases and logic, in particular, appeal to me. I am motivated and continuously work on improving my technical skills. My goal is to further develop myself into a professional developer and contribute to strong and well-functioning digital solutions.",
 
     "projects.title": "My Projects",
     "project.view":   "View Project",
