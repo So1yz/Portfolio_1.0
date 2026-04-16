@@ -196,7 +196,7 @@ function initContactForm() {
   });
 }
 
-// responsive mobile
+// Mobile menu
 
 function initMobileMenu() {
   const btn = document.querySelector(".menu-btn");
