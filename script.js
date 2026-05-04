@@ -3,7 +3,7 @@ const translations = {
     "nav.about":        "Over mij",
     "nav.projects":     "Projecten",
     "nav.skills":       "Skills",
-    "nav.testimonials": "Reviews",
+    "nav.ervaringen": "Ervaringen",
     "nav.contact":      "Contact",
 
     "hero.eyebrow":  "Welkom",
@@ -21,7 +21,7 @@ const translations = {
     "project.techfix": "Een refurbished/elektronica e-commerce website. Met database structuur, SQL, PHP en alles zelf gecodeerd. Functionele webshop voor elektronische producten.",
 
     "skills.title":       "Technische skills",
-    "testimonials.title": "Reviews",
+    "ervaringen.title": "Ervaringen",
 
     "contact.title":         "Contact",
     "contact.emailLabel":    "E‑mail",
@@ -40,7 +40,7 @@ const translations = {
     "nav.about":        "About",
     "nav.projects":     "Projects",
     "nav.skills":       "Skills",
-    "nav.testimonials": "Testimonials",
+    "nav.Experiences": "Experiences",
     "nav.contact":      "Contact",
 
     "hero.eyebrow":  "Welcome",
@@ -59,7 +59,7 @@ const translations = {
 
 
     "skills.title":       "Technical Skills",
-    "testimonials.title": "Testimonials",
+    "Experiences.title": "Experiences",
 
     "contact.title":         "Contact Me",
     "contact.emailLabel":    "Email",

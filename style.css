@@ -509,14 +509,14 @@ meter.skill-bar::-moz-meter-bar {
   border-radius: 999px;
 }
 
-/*TETIMONIals*/
-.testimonial-grid {
+/*ervaringen*/
+.Ervaringen-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
 }
 
-.testimonial {
+.Ervaringen {
   background: var(--bg-card);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
@@ -524,8 +524,7 @@ meter.skill-bar::-moz-meter-bar {
   position: relative;
 }
 
-.testimonial::before {
-  content: "“";
+.Ervaringen::before {
   font-family: var(--font-display);
   font-size: 4.5rem;
   color: var(--accent);
@@ -537,7 +536,7 @@ meter.skill-bar::-moz-meter-bar {
   pointer-events: none;
 }
 
-.testimonial blockquote {
+.Ervaringen blockquote {
   margin: 0.5rem 0 1rem;
   color: var(--text-muted);
   line-height: 1.75;
@@ -545,7 +544,7 @@ meter.skill-bar::-moz-meter-bar {
   font-style: italic;
 }
 
-.testimonial .client {
+.Ervaringen .client {
   margin: 0;
   font-size: 0.82rem;
   font-weight: 600;
