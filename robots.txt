@@ -1,0 +1,7 @@
+# robots.txt — yusufsimsek.nl
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://yusufsimsek.nl/sitemap.xml

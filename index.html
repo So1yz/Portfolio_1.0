@@ -16,7 +16,8 @@
   <!-- Alleen deze simpele security -->
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="assets/img/Yusuf.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
@@ -46,17 +47,20 @@
 
     <!-- hero -->
     <section id="home" class="hero">
-      <section class="hero-text">
+      <div class="hero-text">
         <p class="eyebrow" data-i18n="hero.eyebrow">Welkom</p>
         <h1 data-i18n="hero.title">Ik ben Yusuf Simsek</h1>
         <p class="subtitle" data-i18n="hero.subtitle">Software Developer</p>
         <button class="primary-btn" type="button" data-scroll-target="#projects" data-i18n="hero.cta">
           Bekijk mijn projecten
         </button>
-      </section>
+      </div>
 
       <figure class="hero-profile">
-        <img src="Yusuf.jpeg" alt="Portret van Yusuf Simsek" width="300" height="400">
+        <picture>
+          <source srcset="assets/img/Yusuf.webp" type="image/webp">
+          <img src="assets/img/Yusuf.webp" alt="Yusuf Simsek, software developer uit Rotterdam, voor de Erasmusbrug bij nacht" width="100" height="400" loading="eager" fetchpriority="high">
+        </picture>
       </figure>
     </section>
   
@@ -235,10 +239,11 @@
         <a href="#linkedin">LinkedIn</a>
         <a href="https://github.com/So1yz" target="_blank">GitHub</a>
         <a href="https://www.instagram.com/yusuf_sims3k/" target="_blank">Instagram</a>
+         <a href="sitemap.html">Sitemap</a>
       </nav>
     </section>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
